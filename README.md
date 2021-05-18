@@ -10,6 +10,7 @@ filename.txt could be any text file in a comma separated value
 In order to edit source and destination zimbra servers, edit the script and change the following variables:
 
 HOST1="source server ip address"
+
 HOST2="destination server ip address"
 
 ## CSV file structure
