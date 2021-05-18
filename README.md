@@ -6,6 +6,12 @@ Usage: zyncbra.sh filename.txt
 
 filename.txt could be any text file in a comma separated value
 
+## Change servers
+In order to edit source and destination zimbra servers, edit the script and change the following variables:
+
+HOST1="source server ip address"
+HOST2="destination server ip address"
+
 ## CSV file structure
 
 The script expects to receive the following text file structure
