@@ -3,10 +3,13 @@
 #Script for syncing to zimbra servers
 #author Leon Ramos 2021 @fulvous
 
+#Edit the following variables according to your servers ip
+#HOST1 is the source server
+#HOST2 is the destination server
 HOST1="192.168.1.1"
 HOST2="192.168.1.2"
 
-if [ -z ${2} ] ; then
+if [ -z ${1} ] ; then
         echo "USAGE: ${0} textfile.csv"
         echo -e "\ttextfile.csv contains 'user,password', one line per mailbox"
         echo
