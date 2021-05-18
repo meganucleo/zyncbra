@@ -30,7 +30,7 @@ function sync {
                 echo "==============Working on ${user}=================="
                 imapsync --host1 ${HOST1} --user1 ${user} --password1 ${password} --authmech1 PLAIN --ssl1 --host2 ${HOST2} --user2 ${user} --password2 ${password} --authmech2 PLAIN --ssl2
                 if [ $? -eq 0 ] ; then
-                        logger "imapsync ${user} CORRECTO"
+                        logger "imapsync ${user} CORRECT"
                 else
                         logger "imapsync ${user} ERROR"
                 fi
