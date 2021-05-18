@@ -4,8 +4,14 @@
 #author Leon Ramos 2021 @fulvous
 
 if [ -z ${1} ] ; then
-        echo "USO: ${0} archivo.txt"
-        echo -e "\tarchivo.txt contiene usuario,password"
+        echo "USAGE: ${0} textfile.csv"
+        echo -e "\ttextfile.csv contains 'user,password', one line per mailbox"
+        echo
+        echo -e "\tEXAMPLE:"
+        echo
+        echo -e "\tuser_a,password_a"
+        echo -e "\tuser_b,password_b"
+        echo -e "\tuser_c,password_c"
         exit 1
 fi
 
