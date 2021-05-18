@@ -1,9 +1,24 @@
 #!/bin/bash
 
-#Script for syncing to zimbra servers
+#Zyncbra is a Script for syncing to zimbra servers
 #author Leon Ramos 2021 @fulvous
 
-#Edit the following variables according to your servers ip
+#This program is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#any later version.
+#
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+
+
+#EDIT the following variables according to your servers ip
 #HOST1 is the source server
 #HOST2 is the destination server
 HOST1="192.168.1.1"
