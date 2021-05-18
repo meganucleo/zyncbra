@@ -12,8 +12,9 @@ HOST2="192.168.1.2"
 if [ -z ${1} ] ; then
         echo "USAGE: ${0} textfile.csv"
         echo -e "\ttextfile.csv contains 'user,password', one line per mailbox"
+        echo -e "\tEDIT SCRIPT FOR CHANGING SOURCE AND DESTINATION SERVERS"
         echo
-        echo -e "\tEXAMPLE:"
+        echo -e "\tEXAMPLE of textfile:"
         echo
         echo -e "\tuser_a,password_a"
         echo -e "\tuser_b,password_b"
